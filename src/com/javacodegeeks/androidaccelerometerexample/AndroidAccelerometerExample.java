@@ -23,10 +23,6 @@ public class AndroidAccelerometerExample extends Activity implements SensorEvent
 
 	private SensorManager sensorManager;
 	private Sensor accelerometer;
-
-	private SensorManager sensorManager1;
-	private Sensor accelerometer2;
-
 	private float vibrateThreshold = 0;
 
 	private TextView currentX, currentY, currentZ, maxX, maxY, maxZ;
