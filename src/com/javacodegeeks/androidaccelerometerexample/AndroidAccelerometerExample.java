@@ -11,8 +11,12 @@ import android.os.Vibrator;
 import android.widget.TextView;
 
 
-//This class is used to get the things dons
 
+/*
+*
+* This method
+*
+* */
 public class AndroidAccelerometerExample extends Activity implements SensorEventListener {
 
 	private float lastX, lastY, lastZ;
@@ -20,13 +24,8 @@ public class AndroidAccelerometerExample extends Activity implements SensorEvent
 	private SensorManager sensorManager;
 	private Sensor accelerometer;
 
-	private float deltaXMax = 0;
-	private float deltaYMax = 0;
-	private float deltaZMax = 0;
-
-	private float deltaX = 0;
-	private float deltaY = 0;
-	private float deltaZ = 0;
+	private SensorManager sensorManager1;
+	private Sensor accelerometer2;
 
 	private float vibrateThreshold = 0;
 
