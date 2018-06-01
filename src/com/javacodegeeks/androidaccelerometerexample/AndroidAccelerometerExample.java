@@ -10,6 +10,9 @@ import android.os.Bundle;
 import android.os.Vibrator;
 import android.widget.TextView;
 
+
+//This class is used to get the things dons
+
 public class AndroidAccelerometerExample extends Activity implements SensorEventListener {
 
 	private float lastX, lastY, lastZ;
